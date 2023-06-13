@@ -1,0 +1,31 @@
+var_1=input('Please enter first number: ')
+var_2=input('Please enter second number: ')
+
+print(type(var_1))
+print(type(var_2))
+
+var_3=int(var_1)
+var_4=int(var_2)
+
+total= var_3 + var_4
+
+product= var_3*var_4
+
+difference= var_3-var_4
+
+print('sum= ',total)
+print('product= ', product)
+print('difference= ',difference)
+
+#second way
+
+var_1=int(input('please enter first number: '))
+var_2=int(input('please enter second number: '))
+
+total= var_1 + var_2
+product=var_1*var_2
+difference= var_1-var_2
+
+print('sum =',total)
+print('product =',product)
+print('difference =',difference)
